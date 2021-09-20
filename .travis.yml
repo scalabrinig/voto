@@ -1,0 +1,9 @@
+# Linguagem e JDK
+language: java
+jdk: oraclejdk16
+
+# Mantem um repositorio local do  Maven aumentando a velocidade
+# de build entre diferentes processos de build e test
+cache:
+  directories:
+  - $home/.m2
